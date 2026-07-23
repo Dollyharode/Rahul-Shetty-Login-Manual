@@ -1,0 +1,8 @@
+,OS: Windows 11 | Browser: Chrome 150 | Resolution: 1536x816 | Time: 23 Jul 2026 / 18:39:26  GMT+5:30,,,,,
+,,,,,,
+#,Step,Data,Exp Result,XPath,cssSelector,Actual Result
+1,Open website,https://rahulshettyacademy.com/locatorspractice/,,,,
+2,"Enter ""rahul"" into ""Username""",rahul,,//input[@id='inputUsername'],#inputUsername,
+3,"Enter ""******"" into ""Password""",******,,//input[@placeholder='Password'],input[placeholder='Password'],
+4,"Click on ""I agree to the terms and privacy policy.""",,,//input[@id='chkboxTwo'],#chkboxTwo,
+5,"Click on ""Sign In""",,,//button[normalize-space()='Sign In'],button[type='submit'],
